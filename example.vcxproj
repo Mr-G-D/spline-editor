@@ -1,0 +1,410 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{698DCDCA-05D1-3DAF-8603-179449B23371}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>example</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">example.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">example</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">example.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">example</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">example.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">example</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">example.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">example</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\external\glm;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-src\include;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\glad-src\include;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\glfw-src\include;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\imgui-src;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\imguizmo-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/_deps/eigen-src" /external:I "D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/_deps/libigl_imgui_fonts-src" /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild>
+      </MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NOMINMAX;IMGUI_IMPL_OPENGL_LOADER_GLAD;IMGUI_DISABLE_OBSOLETE_FUNCTIONS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;NOMINMAX;IMGUI_IMPL_OPENGL_LOADER_GLAD;IMGUI_DISABLE_OBSOLETE_FUNCTIONS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\external\glm;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-src\include;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\glad-src\include;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\glfw-src\include;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\imgui-src;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\imguizmo-src;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\eigen-src;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl_imgui_fonts-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\external\glm;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-src\include;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\glad-src\include;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\glfw-src\include;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\imgui-src;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\imguizmo-src;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\eigen-src;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl_imgui_fonts-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;Debug\imguizmo.lib;Debug\imgui.lib;_deps\glfw-build\src\Debug\glfw3.lib;_deps\glad-build\Debug\glad.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/Debug/example.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/Debug/example.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\external\glm;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-src\include;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\glad-src\include;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\glfw-src\include;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\imgui-src;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\imguizmo-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/_deps/eigen-src" /external:I "D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/_deps/libigl_imgui_fonts-src" /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild>
+      </MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;IMGUI_IMPL_OPENGL_LOADER_GLAD;IMGUI_DISABLE_OBSOLETE_FUNCTIONS;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;IMGUI_IMPL_OPENGL_LOADER_GLAD;IMGUI_DISABLE_OBSOLETE_FUNCTIONS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\external\glm;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-src\include;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\glad-src\include;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\glfw-src\include;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\imgui-src;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\imguizmo-src;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\eigen-src;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl_imgui_fonts-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\external\glm;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-src\include;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\glad-src\include;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\glfw-src\include;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\imgui-src;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\imguizmo-src;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\eigen-src;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl_imgui_fonts-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;Release\imguizmo.lib;Release\imgui.lib;_deps\glfw-build\src\Release\glfw3.lib;_deps\glad-build\Release\glad.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/Release/example.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/Release/example.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\external\glm;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-src\include;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\glad-src\include;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\glfw-src\include;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\imgui-src;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\imguizmo-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/_deps/eigen-src" /external:I "D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/_deps/libigl_imgui_fonts-src" /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild>
+      </MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;IMGUI_IMPL_OPENGL_LOADER_GLAD;IMGUI_DISABLE_OBSOLETE_FUNCTIONS;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;IMGUI_IMPL_OPENGL_LOADER_GLAD;IMGUI_DISABLE_OBSOLETE_FUNCTIONS;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\external\glm;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-src\include;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\glad-src\include;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\glfw-src\include;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\imgui-src;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\imguizmo-src;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\eigen-src;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl_imgui_fonts-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\external\glm;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-src\include;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\glad-src\include;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\glfw-src\include;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\imgui-src;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\imguizmo-src;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\eigen-src;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl_imgui_fonts-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;MinSizeRel\imguizmo.lib;MinSizeRel\imgui.lib;_deps\glfw-build\src\MinSizeRel\glfw3.lib;_deps\glad-build\MinSizeRel\glad.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/MinSizeRel/example.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/MinSizeRel/example.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\external\glm;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-src\include;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\glad-src\include;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\glfw-src\include;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\imgui-src;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\imguizmo-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/_deps/eigen-src" /external:I "D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/_deps/libigl_imgui_fonts-src" /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild>
+      </MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;IMGUI_IMPL_OPENGL_LOADER_GLAD;IMGUI_DISABLE_OBSOLETE_FUNCTIONS;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;IMGUI_IMPL_OPENGL_LOADER_GLAD;IMGUI_DISABLE_OBSOLETE_FUNCTIONS;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\external\glm;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-src\include;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\glad-src\include;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\glfw-src\include;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\imgui-src;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\imguizmo-src;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\eigen-src;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl_imgui_fonts-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\external\glm;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-src\include;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\glad-src\include;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\glfw-src\include;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\imgui-src;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\imguizmo-src;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\eigen-src;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl_imgui_fonts-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;RelWithDebInfo\imguizmo.lib;RelWithDebInfo\imgui.lib;_deps\glfw-build\src\RelWithDebInfo\glfw3.lib;_deps\glad-build\RelWithDebInfo\glad.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/RelWithDebInfo/example.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/RelWithDebInfo/example.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\bin\cmake.exe" "-SD:/Concordia University/Winter2025/Geometry/A1/libigl-example-project" "-BD:/Concordia University/Winter2025/Geometry/A1/libigl-example-project" --check-stamp-file "D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\CMakeFiles\3.31.6\CMakeCCompiler.cmake;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\CMakeFiles\3.31.6\CMakeCXXCompiler.cmake;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\CMakeFiles\3.31.6\CMakeRCCompiler.cmake;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\CMakeFiles\3.31.6\CMakeSystem.cmake;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-src\cmake\igl\modules\glfw.cmake;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-src\cmake\igl\modules\imgui.cmake;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-src\cmake\igl\modules\opengl.cmake;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-src\cmake\recipes\external\glad.cmake;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-src\cmake\recipes\external\glfw.cmake;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-src\cmake\recipes\external\imgui.cmake;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-src\cmake\recipes\external\imguizmo.cmake;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-src\cmake\recipes\external\libigl_imgui_fonts.cmake;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\cmake\libigl.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeCInformation.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeRCInformation.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\MSVC.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\ExternalProject\shared_internal_commands.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\FetchContent.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\FetchContent\CMakeLists.cmake.in;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\FindGit.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\FindOpenGL.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\FindPackageMessage.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\GNUInstallDirs.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\bin\cmake.exe" "-SD:/Concordia University/Winter2025/Geometry/A1/libigl-example-project" "-BD:/Concordia University/Winter2025/Geometry/A1/libigl-example-project" --check-stamp-file "D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\CMakeFiles\3.31.6\CMakeCCompiler.cmake;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\CMakeFiles\3.31.6\CMakeCXXCompiler.cmake;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\CMakeFiles\3.31.6\CMakeRCCompiler.cmake;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\CMakeFiles\3.31.6\CMakeSystem.cmake;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-src\cmake\igl\modules\glfw.cmake;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-src\cmake\igl\modules\imgui.cmake;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-src\cmake\igl\modules\opengl.cmake;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-src\cmake\recipes\external\glad.cmake;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-src\cmake\recipes\external\glfw.cmake;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-src\cmake\recipes\external\imgui.cmake;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-src\cmake\recipes\external\imguizmo.cmake;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-src\cmake\recipes\external\libigl_imgui_fonts.cmake;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\cmake\libigl.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeCInformation.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeRCInformation.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\MSVC.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\ExternalProject\shared_internal_commands.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\FetchContent.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\FetchContent\CMakeLists.cmake.in;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\FindGit.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\FindOpenGL.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\FindPackageMessage.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\GNUInstallDirs.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\bin\cmake.exe" "-SD:/Concordia University/Winter2025/Geometry/A1/libigl-example-project" "-BD:/Concordia University/Winter2025/Geometry/A1/libigl-example-project" --check-stamp-file "D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\CMakeFiles\3.31.6\CMakeCCompiler.cmake;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\CMakeFiles\3.31.6\CMakeCXXCompiler.cmake;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\CMakeFiles\3.31.6\CMakeRCCompiler.cmake;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\CMakeFiles\3.31.6\CMakeSystem.cmake;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-src\cmake\igl\modules\glfw.cmake;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-src\cmake\igl\modules\imgui.cmake;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-src\cmake\igl\modules\opengl.cmake;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-src\cmake\recipes\external\glad.cmake;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-src\cmake\recipes\external\glfw.cmake;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-src\cmake\recipes\external\imgui.cmake;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-src\cmake\recipes\external\imguizmo.cmake;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-src\cmake\recipes\external\libigl_imgui_fonts.cmake;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\cmake\libigl.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeCInformation.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeRCInformation.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\MSVC.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\ExternalProject\shared_internal_commands.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\FetchContent.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\FetchContent\CMakeLists.cmake.in;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\FindGit.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\FindOpenGL.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\FindPackageMessage.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\GNUInstallDirs.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\bin\cmake.exe" "-SD:/Concordia University/Winter2025/Geometry/A1/libigl-example-project" "-BD:/Concordia University/Winter2025/Geometry/A1/libigl-example-project" --check-stamp-file "D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\CMakeFiles\3.31.6\CMakeCCompiler.cmake;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\CMakeFiles\3.31.6\CMakeCXXCompiler.cmake;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\CMakeFiles\3.31.6\CMakeRCCompiler.cmake;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\CMakeFiles\3.31.6\CMakeSystem.cmake;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-src\cmake\igl\modules\glfw.cmake;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-src\cmake\igl\modules\imgui.cmake;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-src\cmake\igl\modules\opengl.cmake;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-src\cmake\recipes\external\glad.cmake;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-src\cmake\recipes\external\glfw.cmake;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-src\cmake\recipes\external\imgui.cmake;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-src\cmake\recipes\external\imguizmo.cmake;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-src\cmake\recipes\external\libigl_imgui_fonts.cmake;D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\cmake\libigl.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeCInformation.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeRCInformation.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\MSVC.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\ExternalProject\shared_internal_commands.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\FetchContent.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\FetchContent\CMakeLists.cmake.in;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\FindGit.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\FindOpenGL.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\FindPackageMessage.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\GNUInstallDirs.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows.cmake;D:\Concordia University\Winter2025\Geometry\cmake-3.31.6-windows-x86_64\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\main.cpp" />
+    <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="Callbacks.cpp" />
+    <Natvis Include="D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\eigen-src\debug\msvc\eigen.natvis">
+    </Natvis>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\ZERO_CHECK.vcxproj">
+      <Project>{ABB81CC0-3E0E-3652-A0FC-DBECE90E40A0}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\glad-build\glad.vcxproj">
+      <Project>{21C7857D-2CB6-3F6C-93F8-DDA9F38E7715}</Project>
+      <Name>glad</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\glfw-build\src\glfw.vcxproj">
+      <Project>{CDC0A1EA-50CF-37AE-AD29-78503D6FB0B9}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-build\igl_core.vcxproj">
+      <Project>{F69E9F9D-5047-34CC-99B5-53114A2D5DC7}</Project>
+      <Name>igl_core</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\igl_glfw.vcxproj">
+      <Project>{9F19231E-A82E-3501-85C3-510870ECF383}</Project>
+      <Name>igl_glfw</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\igl_imgui.vcxproj">
+      <Project>{7467877C-B5E3-3673-8F5C-26EF0103FD06}</Project>
+      <Name>igl_imgui</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\igl_opengl.vcxproj">
+      <Project>{D1845C9A-A01C-37EE-B91B-4CE6D862ACDF}</Project>
+      <Name>igl_opengl</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\imgui.vcxproj">
+      <Project>{600E1E06-5DA4-3911-8A3F-069BAF1583EE}</Project>
+      <Name>imgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\imguizmo.vcxproj">
+      <Project>{0EC3A6B8-6398-3687-9EE2-D22779206223}</Project>
+      <Name>imguizmo</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\square.off" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Mesh.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

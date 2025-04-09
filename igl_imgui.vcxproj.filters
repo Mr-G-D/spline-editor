@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-src\include\igl\opengl\glfw\imgui\ImGuiHelpers.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-src\include\igl\opengl\glfw\imgui\ImGuiMenu.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-src\include\igl\opengl\glfw\imgui\ImGuiPlugin.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-src\include\igl\opengl\glfw\imgui\ImGuiTraits.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-src\include\igl\opengl\glfw\imgui\ImGuiWidget.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-src\include\igl\opengl\glfw\imgui\ImGuizmoWidget.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-src\include\igl\opengl\glfw\imgui\SelectionWidget.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-src\include\igl\opengl\glfw\imgui\ImGuiMenu.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-src\include\igl\opengl\glfw\imgui\ImGuiPlugin.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-src\include\igl\opengl\glfw\imgui\ImGuizmoWidget.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\_deps\libigl-src\include\igl\opengl\glfw\imgui\SelectionWidget.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{29445CA2-4640-39FD-8D19-FB890B63113F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C833867F-1BC7-35B0-8C84-3540929D6F37}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

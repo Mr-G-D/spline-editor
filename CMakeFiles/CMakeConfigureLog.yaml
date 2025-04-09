@@ -1,0 +1,1111 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.12.12+1cce77968 for .NET Framework
+      Build started 2/26/2025 6:11:37 PM.
+      
+      Project "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\3.31.6\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        D:\\IDEs\\Visual Studio Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        D:\\IDEs\\Visual Studio Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\3.31.6\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=D:\\IDEs\\Visual Studio Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\3.31.6\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.09
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/CMakeFiles/3.31.6/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.12.12+1cce77968 for .NET Framework
+      Build started 2/26/2025 6:11:39 PM.
+      
+      Project "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\3.31.6\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        D:\\IDEs\\Visual Studio Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        D:\\IDEs\\Visual Studio Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\3.31.6\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=D:\\IDEs\\Visual Studio Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\3.31.6\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.77
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/CMakeFiles/3.31.6/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/CMakeFiles/CMakeScratch/TryCompile-nbuiyf"
+      binary: "D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/CMakeFiles/CMakeScratch/TryCompile-nbuiyf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/CMakeFiles/CMakeScratch/TryCompile-nbuiyf'
+        
+        Run Build Command(s): "D:/IDEs/Visual Studio Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0c1a0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.12.12+1cce77968 for .NET Framework
+        Build started 2/26/2025 6:11:40 PM.
+        
+        Project "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\CMakeScratch\\TryCompile-nbuiyf\\cmTC_0c1a0.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_0c1a0.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\CMakeScratch\\TryCompile-nbuiyf\\Debug\\".
+          Creating directory "cmTC_0c1a0.dir\\Debug\\cmTC_0c1a0.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_0c1a0.dir\\Debug\\cmTC_0c1a0.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_0c1a0.dir\\Debug\\cmTC_0c1a0.tlog\\unsuccessfulbuild".
+        ClCompile:
+          D:\\IDEs\\Visual Studio Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0c1a0.dir\\Debug\\\\" /Fd"cmTC_0c1a0.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Concordia University\\Winter2025\\Geometry\\cmake-3.31.6-windows-x86_64\\cmake-3.31.6-windows-x86_64\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34436 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0c1a0.dir\\Debug\\\\" /Fd"cmTC_0c1a0.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Concordia University\\Winter2025\\Geometry\\cmake-3.31.6-windows-x86_64\\cmake-3.31.6-windows-x86_64\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          D:\\IDEs\\Visual Studio Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\CMakeScratch\\TryCompile-nbuiyf\\Debug\\cmTC_0c1a0.exe" /INCREMENTAL /ILK:"cmTC_0c1a0.dir\\Debug\\cmTC_0c1a0.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/CMakeFiles/CMakeScratch/TryCompile-nbuiyf/Debug/cmTC_0c1a0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/CMakeFiles/CMakeScratch/TryCompile-nbuiyf/Debug/cmTC_0c1a0.lib" /MACHINE:X64  /machine:x64 cmTC_0c1a0.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_0c1a0.vcxproj -> D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\CMakeScratch\\TryCompile-nbuiyf\\Debug\\cmTC_0c1a0.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_0c1a0.dir\\Debug\\cmTC_0c1a0.tlog\\unsuccessfulbuild".
+          Touching "cmTC_0c1a0.dir\\Debug\\cmTC_0c1a0.tlog\\cmTC_0c1a0.lastbuildstate".
+        Done Building Project "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\CMakeScratch\\TryCompile-nbuiyf\\cmTC_0c1a0.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.97
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': D:/IDEs/Visual Studio Community/VC/Tools/MSVC/14.42.34433/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "D:/IDEs/Visual Studio Community/VC/Tools/MSVC/14.42.34433/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.42.34436.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/CMakeFiles/CMakeScratch/TryCompile-nzacdp"
+      binary: "D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/CMakeFiles/CMakeScratch/TryCompile-nzacdp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/CMakeFiles/CMakeScratch/TryCompile-nzacdp'
+        
+        Run Build Command(s): "D:/IDEs/Visual Studio Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_42c9f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.12.12+1cce77968 for .NET Framework
+        Build started 2/26/2025 6:11:41 PM.
+        
+        Project "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\CMakeScratch\\TryCompile-nzacdp\\cmTC_42c9f.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_42c9f.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\CMakeScratch\\TryCompile-nzacdp\\Debug\\".
+          Creating directory "cmTC_42c9f.dir\\Debug\\cmTC_42c9f.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_42c9f.dir\\Debug\\cmTC_42c9f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_42c9f.dir\\Debug\\cmTC_42c9f.tlog\\unsuccessfulbuild".
+        ClCompile:
+          D:\\IDEs\\Visual Studio Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_42c9f.dir\\Debug\\\\" /Fd"cmTC_42c9f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\Concordia University\\Winter2025\\Geometry\\cmake-3.31.6-windows-x86_64\\cmake-3.31.6-windows-x86_64\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34436 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_42c9f.dir\\Debug\\\\" /Fd"cmTC_42c9f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\Concordia University\\Winter2025\\Geometry\\cmake-3.31.6-windows-x86_64\\cmake-3.31.6-windows-x86_64\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          D:\\IDEs\\Visual Studio Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\CMakeScratch\\TryCompile-nzacdp\\Debug\\cmTC_42c9f.exe" /INCREMENTAL /ILK:"cmTC_42c9f.dir\\Debug\\cmTC_42c9f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/CMakeFiles/CMakeScratch/TryCompile-nzacdp/Debug/cmTC_42c9f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/CMakeFiles/CMakeScratch/TryCompile-nzacdp/Debug/cmTC_42c9f.lib" /MACHINE:X64  /machine:x64 cmTC_42c9f.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_42c9f.vcxproj -> D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\CMakeScratch\\TryCompile-nzacdp\\Debug\\cmTC_42c9f.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_42c9f.dir\\Debug\\cmTC_42c9f.tlog\\unsuccessfulbuild".
+          Touching "cmTC_42c9f.dir\\Debug\\cmTC_42c9f.tlog\\cmTC_42c9f.lastbuildstate".
+        Done Building Project "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\CMakeScratch\\TryCompile-nzacdp\\cmTC_42c9f.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.88
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': D:/IDEs/Visual Studio Community/VC/Tools/MSVC/14.42.34433/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "D:/IDEs/Visual Studio Community/VC/Tools/MSVC/14.42.34433/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.42.34436.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "_deps/libigl-src/cmake/igl/modules/core.cmake:24 (find_package)"
+      - "_deps/libigl-src/cmake/igl/igl_include.cmake:32 (include)"
+      - "_deps/libigl-src/cmake/igl/igl_include.cmake:54 (_igl_include_full)"
+      - "_deps/libigl-src/cmake/libigl.cmake:15 (igl_include)"
+      - "_deps/libigl-src/CMakeLists.txt:151 (include)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/CMakeFiles/CMakeScratch/TryCompile-wl5ofm"
+      binary: "D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/CMakeFiles/CMakeScratch/TryCompile-wl5ofm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/_deps/libigl-src/cmake/recipes/external;D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/_deps/libigl-src/cmake/;D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/_deps/libigl-src/cmake/igl;D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/_deps/libigl-src/cmake/find;D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/_deps/libigl-src/cmake/recipes/external;D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/CMakeFiles/CMakeScratch/TryCompile-wl5ofm'
+        
+        Run Build Command(s): "D:/IDEs/Visual Studio Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_08557.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.12.12+1cce77968 for .NET Framework
+        Build started 2/26/2025 6:11:56 PM.
+        
+        Project "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\CMakeScratch\\TryCompile-wl5ofm\\cmTC_08557.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_08557.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\CMakeScratch\\TryCompile-wl5ofm\\Debug\\".
+          Creating directory "cmTC_08557.dir\\Debug\\cmTC_08557.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_08557.dir\\Debug\\cmTC_08557.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_08557.dir\\Debug\\cmTC_08557.tlog\\unsuccessfulbuild".
+        ClCompile:
+          D:\\IDEs\\Visual Studio Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_08557.dir\\Debug\\\\" /Fd"cmTC_08557.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\CMakeScratch\\TryCompile-wl5ofm\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34436 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_08557.dir\\Debug\\\\" /Fd"cmTC_08557.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\CMakeScratch\\TryCompile-wl5ofm\\src.c"
+          src.c
+        D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\CMakeScratch\\TryCompile-wl5ofm\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\CMakeScratch\\TryCompile-wl5ofm\\cmTC_08557.vcxproj]
+        Done Building Project "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\CMakeScratch\\TryCompile-wl5ofm\\cmTC_08557.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\CMakeScratch\\TryCompile-wl5ofm\\cmTC_08557.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\CMakeScratch\\TryCompile-wl5ofm\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\CMakeScratch\\TryCompile-wl5ofm\\cmTC_08557.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.43
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "_deps/libigl-src/cmake/igl/modules/core.cmake:24 (find_package)"
+      - "_deps/libigl-src/cmake/igl/igl_include.cmake:32 (include)"
+      - "_deps/libigl-src/cmake/igl/igl_include.cmake:54 (_igl_include_full)"
+      - "_deps/libigl-src/cmake/libigl.cmake:15 (igl_include)"
+      - "_deps/libigl-src/CMakeLists.txt:151 (include)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/CMakeFiles/CMakeScratch/TryCompile-ahhzkc"
+      binary: "D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/CMakeFiles/CMakeScratch/TryCompile-ahhzkc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/_deps/libigl-src/cmake/recipes/external;D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/_deps/libigl-src/cmake/;D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/_deps/libigl-src/cmake/igl;D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/_deps/libigl-src/cmake/find;D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/_deps/libigl-src/cmake/recipes/external;D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/CMakeFiles/CMakeScratch/TryCompile-ahhzkc'
+        
+        Run Build Command(s): "D:/IDEs/Visual Studio Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_42513.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.12.12+1cce77968 for .NET Framework
+        Build started 2/26/2025 6:11:57 PM.
+        
+        Project "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\CMakeScratch\\TryCompile-ahhzkc\\cmTC_42513.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_42513.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\CMakeScratch\\TryCompile-ahhzkc\\Debug\\".
+          Creating directory "cmTC_42513.dir\\Debug\\cmTC_42513.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_42513.dir\\Debug\\cmTC_42513.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_42513.dir\\Debug\\cmTC_42513.tlog\\unsuccessfulbuild".
+        ClCompile:
+          D:\\IDEs\\Visual Studio Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_42513.dir\\Debug\\\\" /Fd"cmTC_42513.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\CMakeScratch\\TryCompile-ahhzkc\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34436 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_42513.dir\\Debug\\\\" /Fd"cmTC_42513.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\CMakeScratch\\TryCompile-ahhzkc\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          D:\\IDEs\\Visual Studio Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\CMakeScratch\\TryCompile-ahhzkc\\Debug\\cmTC_42513.exe" /INCREMENTAL /ILK:"cmTC_42513.dir\\Debug\\cmTC_42513.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/CMakeFiles/CMakeScratch/TryCompile-ahhzkc/Debug/cmTC_42513.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/CMakeFiles/CMakeScratch/TryCompile-ahhzkc/Debug/cmTC_42513.lib" /MACHINE:X64  /machine:x64 cmTC_42513.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\CMakeScratch\\TryCompile-ahhzkc\\cmTC_42513.vcxproj]
+        Done Building Project "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\CMakeScratch\\TryCompile-ahhzkc\\cmTC_42513.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\CMakeScratch\\TryCompile-ahhzkc\\cmTC_42513.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\CMakeScratch\\TryCompile-ahhzkc\\cmTC_42513.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.71
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "_deps/libigl-src/cmake/igl/modules/core.cmake:24 (find_package)"
+      - "_deps/libigl-src/cmake/igl/igl_include.cmake:32 (include)"
+      - "_deps/libigl-src/cmake/igl/igl_include.cmake:54 (_igl_include_full)"
+      - "_deps/libigl-src/cmake/libigl.cmake:15 (igl_include)"
+      - "_deps/libigl-src/CMakeLists.txt:151 (include)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/CMakeFiles/CMakeScratch/TryCompile-yyb5dx"
+      binary: "D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/CMakeFiles/CMakeScratch/TryCompile-yyb5dx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/_deps/libigl-src/cmake/recipes/external;D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/_deps/libigl-src/cmake/;D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/_deps/libigl-src/cmake/igl;D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/_deps/libigl-src/cmake/find;D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/_deps/libigl-src/cmake/recipes/external;D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/CMakeFiles/CMakeScratch/TryCompile-yyb5dx'
+        
+        Run Build Command(s): "D:/IDEs/Visual Studio Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_67f7f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.12.12+1cce77968 for .NET Framework
+        Build started 2/26/2025 6:11:58 PM.
+        
+        Project "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\CMakeScratch\\TryCompile-yyb5dx\\cmTC_67f7f.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_67f7f.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\CMakeScratch\\TryCompile-yyb5dx\\Debug\\".
+          Creating directory "cmTC_67f7f.dir\\Debug\\cmTC_67f7f.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_67f7f.dir\\Debug\\cmTC_67f7f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_67f7f.dir\\Debug\\cmTC_67f7f.tlog\\unsuccessfulbuild".
+        ClCompile:
+          D:\\IDEs\\Visual Studio Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_67f7f.dir\\Debug\\\\" /Fd"cmTC_67f7f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\CMakeScratch\\TryCompile-yyb5dx\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34436 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_67f7f.dir\\Debug\\\\" /Fd"cmTC_67f7f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\CMakeScratch\\TryCompile-yyb5dx\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          D:\\IDEs\\Visual Studio Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\CMakeScratch\\TryCompile-yyb5dx\\Debug\\cmTC_67f7f.exe" /INCREMENTAL /ILK:"cmTC_67f7f.dir\\Debug\\cmTC_67f7f.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/CMakeFiles/CMakeScratch/TryCompile-yyb5dx/Debug/cmTC_67f7f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/CMakeFiles/CMakeScratch/TryCompile-yyb5dx/Debug/cmTC_67f7f.lib" /MACHINE:X64  /machine:x64 cmTC_67f7f.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\CMakeScratch\\TryCompile-yyb5dx\\cmTC_67f7f.vcxproj]
+        Done Building Project "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\CMakeScratch\\TryCompile-yyb5dx\\cmTC_67f7f.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\CMakeScratch\\TryCompile-yyb5dx\\cmTC_67f7f.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\CMakeScratch\\TryCompile-yyb5dx\\cmTC_67f7f.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.58
+        
+      exitCode: 1
+...
+
+---
+events:
+
+---    kind: "  -
+ge-v1"
+    backtrace:
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler:  
+ia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Build flags:       Build flags: /DWIN32;/D_WINDOWS
+      Id flags:  
+      
+      The output was:
+      1
+      MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+      Build started 4/4/2025 8:29:42 PM.
+      
+      Project "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\3.31.6\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+      InitializeBuildStatus:
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      Project "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\3.31.6\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        D:\\IDEs\\Visual Studio Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+\libigl-example-project\\CMakeFiles\\3.31.6\\CompilerIdC\\CompilerIdC.vcxproj]
+        (compiling source file '/CMakeCCompilerId.c')
+        Cr      Done Building Project "D:\\Concordia Univ      InitializeBuildStatus:
+A1\\libigl-example-project\\CMakeFiles\\3.31.6\\CompilerIdC\\CompilerIdC.vcxproj" (default targets) -- FAILED.
+      
+      Build FAILED.
+      
+      "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\3.31.6\\CompilerIdC\\CompilerIdC.vcxproj" (default target) (1) ->
+      (ClCompile target) -> 
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+ce file: 'CMakeCCompilerId.c': No such file or directory [D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\3.31.6\\CompilerIdC\\CompilerIdC.vcxproj]
+      MakeDirsForCl:
+          0 Warning(s)
+          1 Error(s)
+tory "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\3.31.6\\CompilerIdC\\Debug".
+      
+Compile:
+        D:\\IDEs\\Visual Studio Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      \\CMakeCCompilerId.c(1,1): error C1083: Cannot open source file: 'CMakeCCompilerId.c': No such file or directory [D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\3.31.6\\CompilerIdC\\CompilerIdC.vcxproj]
+        (compiling source file '/CMakeCCompilerId.c')
+      
+        
+      Done Building Project "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\3.31.6\\CompilerIdC\\CompilerIdC.vcxproj" (default targets) -- FAILED.
+      
+      Build FAILED.
+      
+      "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\3.31.6\\CompilerIdC\\CompilerIdC.vcxproj" (default target) (1) ->
+      (ClCompile target) -> 
+        \\CMakeCCompilerId.c(1,1): error C1083: Cannot open source file: 'CMakeCCompilerId.c': No such file or directory [D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\3.31.6\\CompilerIdC\\CompilerIdC.vcxproj]
+      
+          0 Warning(s)
+          1 Error(s)
+      
+      Time Elapsed 00:00:00.54
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+      Build started 4/4/2025 8:29:43 PM.
+      
+      Project "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\3.31.6\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        D:\\IDEs\\Visual Studio Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      \\CMakeCCompilerId.c(1,1): error C1083: Cannot open source file: 'CMakeCCompilerId.c': No such file or directory [D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\3.31.6\\CompilerIdC\\CompilerIdC.vcxproj]
+        (compiling source file '/CMakeCCompilerId.c')
+        
+      Done Building Project "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\3.31.6\\CompilerIdC\\CompilerIdC.vcxproj" (default targets) -- FAILED.
+      
+      Build FAILED.
+      
+      "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\3.31.6\\CompilerIdC\\CompilerIdC.vcxproj" (default target) (1) ->
+      (ClCompile target) -> 
+        \\CMakeCCompilerId.c(1,1): error C1083: Cannot open source file: 'CMakeCCompilerId.c': No such file or directory [D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\3.31.6\\CompilerIdC\\CompilerIdC.vcxproj]
+      
+          0 Warning(s)
+          1 Error(s)
+      
+      Time Elapsed 00:00:00.37
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+      Build started 4/4/2025 8:29:43 PM.
+      
+      Project "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\3.31.6\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        D:\\IDEs\\Visual Studio Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      \\CMakeCCompilerId.c(1,1): error C1083: Cannot open source file: 'CMakeCCompilerId.c': No such file or directory [D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\3.31.6\\CompilerIdC\\CompilerIdC.vcxproj]
+        (compiling source file '/CMakeCCompilerId.c')
+        
+      Done Building Project "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\3.31.6\\CompilerIdC\\CompilerIdC.vcxproj" (default targets) -- FAILED.
+      
+      Build FAILED.
+      
+      "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\3.31.6\\CompilerIdC\\CompilerIdC.vcxproj" (default target) (1) ->
+      (ClCompile target) -> 
+        \\CMakeCCompilerId.c(1,1): error C1083: Cannot open source file: 'CMakeCCompilerId.c': No such file or directory [D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\3.31.6\\CompilerIdC\\CompilerIdC.vcxproj]
+      
+          0 Warning(s)
+          1 Error(s)
+      
+      Time Elapsed 00:00:00.40
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler:  
+      Build flags: /DWIN32;/D_WINDOWS;/GR;/EHsc
+      Id flags:  
+      
+      The output was:
+      1
+      MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+      Build started 4/4/2025 8:29:44 PM.
+      
+      Project "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\3.31.6\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      MakeDirsForCl:
+        Creating directory "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\3.31.6\\CompilerIdCXX\\Debug".
+      ClCompile:
+        D:\\IDEs\\Visual Studio Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      \\CMakeCXXCompilerId.cpp(1,1): error C1083: Cannot open source file: 'CMakeCXXCompilerId.cpp': No such file or directory [D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\3.31.6\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+        (compiling source file '/CMakeCXXCompilerId.cpp')
+        
+      Done Building Project "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\3.31.6\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets) -- FAILED.
+      
+      Build FAILED.
+      
+      "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\3.31.6\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default target) (1) ->
+      (ClCompile target) -> 
+        \\CMakeCXXCompilerId.cpp(1,1): error C1083: Cannot open source file: 'CMakeCXXCompilerId.cpp': No such file or directory [D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\3.31.6\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      
+          0 Warning(s)
+          1 Error(s)
+      
+      Time Elapsed 00:00:00.53
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+      Build started 4/4/2025 8:29:44 PM.
+      
+      Project "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\3.31.6\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        D:\\IDEs\\Visual Studio Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      \\CMakeCXXCompilerId.cpp(1,1): error C1083: Cannot open source file: 'CMakeCXXCompilerId.cpp': No such file or directory [D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\3.31.6\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+        (compiling source file '/CMakeCXXCompilerId.cpp')
+        
+      Done Building Project "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\3.31.6\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets) -- FAILED.
+      
+      Build FAILED.
+      
+      "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\3.31.6\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default target) (1) ->
+      (ClCompile target) -> 
+        \\CMakeCXXCompilerId.cpp(1,1): error C1083: Cannot open source file: 'CMakeCXXCompilerId.cpp': No such file or directory [D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\3.31.6\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      
+          0 Warning(s)
+          1 Error(s)
+      
+      Time Elapsed 00:00:00.39
+      
+      
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: /DWIN32;/D_WINDOWS
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+      Build started 4/4/2025 8:29:44 PM.
+      
+      Project "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\3.31.6\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+      InitializeBuildStatus:
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        D:\\IDEs\\Visual Studio Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        D:\\IDEs\\Visual Studio Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\3.31.6\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=D:\\IDEs\\Visual Studio Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\3.31.6\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.88
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/CMakeFiles/3.31.6/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler:  
+      Build flags: /DWIN32;/D_WINDOWS;/GR;/EHsc
+      Id flags:  
+      
+      The output was:
+      1
+      MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+      Build started 4/4/2025 8:29:45 PM.
+      
+      Project "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\3.31.6\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        D:\\IDEs\\Visual Studio Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      \\CMakeCXXCompilerId.cpp(1,1): error C1083: Cannot open source file: 'CMakeCXXCompilerId.cpp': No such file or directory [D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\3.31.6\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+        (compiling source file '/CMakeCXXCompilerId.cpp')
+        
+      Done Building Project "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\3.31.6\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets) -- FAILED.
+      
+      Build FAILED.
+      
+      "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\3.31.6\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default target) (1) ->
+      (ClCompile target) -> 
+        \\CMakeCXXCompilerId.cpp(1,1): error C1083: Cannot open source file: 'CMakeCXXCompilerId.cpp': No such file or directory [D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\3.31.6\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      
+          0 Warning(s)
+          1 Error(s)
+      
+      Time Elapsed 00:00:00.41
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+      Build started 4/4/2025 8:29:46 PM.
+      
+      Project "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\3.31.6\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        D:\\IDEs\\Visual Studio Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      \\CMakeCXXCompilerId.cpp(1,1): error C1083: Cannot open source file: 'CMakeCXXCompilerId.cpp': No such file or directory [D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\3.31.6\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+        (compiling source file '/CMakeCXXCompilerId.cpp')
+        
+      Done Building Project "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\3.31.6\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets) -- FAILED.
+      
+      Build FAILED.
+      
+      "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\3.31.6\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default target) (1) ->
+      (ClCompile target) -> 
+        \\CMakeCXXCompilerId.cpp(1,1): error C1083: Cannot open source file: 'CMakeCXXCompilerId.cpp': No such file or directory [D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\3.31.6\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      
+          0 Warning(s)
+          1 Error(s)
+      
+      Time Elapsed 00:00:00.36
+      
+      
+...
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: /DWIN32;/D_WINDOWS;/GR;/EHsc
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+      Build started 4/4/2025 8:29:46 PM.
+      
+      Project "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\3.31.6\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        D:\\IDEs\\Visual Studio Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        D:\\IDEs\\Visual Studio Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\3.31.6\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=D:\\IDEs\\Visual Studio Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\3.31.6\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.83
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/CMakeFiles/3.31.6/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/CMakeFiles/CMakeScratch/TryCompile-gmjjog"
+      binary: "D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/CMakeFiles/CMakeScratch/TryCompile-gmjjog"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/CMakeFiles/CMakeScratch/TryCompile-gmjjog'
+        
+        Run Build Command(s): "D:/IDEs/Visual Studio Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_660e9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 4/4/2025 8:29:48 PM.
+        
+        Project "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\CMakeScratch\\TryCompile-gmjjog\\cmTC_660e9.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_660e9.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\CMakeScratch\\TryCompile-gmjjog\\Debug\\".
+          Creating directory "cmTC_660e9.dir\\Debug\\cmTC_660e9.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_660e9.dir\\Debug\\cmTC_660e9.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_660e9.dir\\Debug\\cmTC_660e9.tlog\\unsuccessfulbuild".
+        ClCompile:
+          D:\\IDEs\\Visual Studio Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_660e9.dir\\Debug\\\\" /Fd"cmTC_660e9.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Concordia University\\Winter2025\\Geometry\\cmake-3.31.6-windows-x86_64\\cmake-3.31.6-windows-x86_64\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_660e9.dir\\Debug\\\\" /Fd"cmTC_660e9.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Concordia University\\Winter2025\\Geometry\\cmake-3.31.6-windows-x86_64\\cmake-3.31.6-windows-x86_64\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          D:\\IDEs\\Visual Studio Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\CMakeScratch\\TryCompile-gmjjog\\Debug\\cmTC_660e9.exe" /INCREMENTAL /ILK:"cmTC_660e9.dir\\Debug\\cmTC_660e9.ilk" /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/CMakeFiles/CMakeScratch/TryCompile-gmjjog/Debug/cmTC_660e9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/CMakeFiles/CMakeScratch/TryCompile-gmjjog/Debug/cmTC_660e9.lib" /MACHINE:X64  /machine:x64 cmTC_660e9.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_660e9.vcxproj -> D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\CMakeScratch\\TryCompile-gmjjog\\Debug\\cmTC_660e9.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_660e9.dir\\Debug\\cmTC_660e9.tlog\\unsuccessfulbuild".
+          Touching "cmTC_660e9.dir\\Debug\\cmTC_660e9.tlog\\cmTC_660e9.lastbuildstate".
+        Done Building Project "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\CMakeScratch\\TryCompile-gmjjog\\cmTC_660e9.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.47
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': D:/IDEs/Visual Studio Community/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "D:/IDEs/Visual Studio Community/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.43.34809.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/CMakeFiles/CMakeScratch/TryCompile-ipwzt2"
+      binary: "D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/CMakeFiles/CMakeScratch/TryCompile-ipwzt2"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/CMakeFiles/CMakeScratch/TryCompile-ipwzt2'
+        
+        Run Build Command(s): "D:/IDEs/Visual Studio Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3ea55.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 4/4/2025 8:29:50 PM.
+        
+        Project "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\CMakeScratch\\TryCompile-ipwzt2\\cmTC_3ea55.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_3ea55.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\CMakeScratch\\TryCompile-ipwzt2\\Debug\\".
+          Creating directory "cmTC_3ea55.dir\\Debug\\cmTC_3ea55.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_3ea55.dir\\Debug\\cmTC_3ea55.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_3ea55.dir\\Debug\\cmTC_3ea55.tlog\\unsuccessfulbuild".
+        ClCompile:
+          D:\\IDEs\\Visual Studio Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3ea55.dir\\Debug\\\\" /Fd"cmTC_3ea55.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\Concordia University\\Winter2025\\Geometry\\cmake-3.31.6-windows-x86_64\\cmake-3.31.6-windows-x86_64\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3ea55.dir\\Debug\\\\" /Fd"cmTC_3ea55.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\Concordia University\\Winter2025\\Geometry\\cmake-3.31.6-windows-x86_64\\cmake-3.31.6-windows-x86_64\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          D:\\IDEs\\Visual Studio Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\CMakeScratch\\TryCompile-ipwzt2\\Debug\\cmTC_3ea55.exe" /INCREMENTAL /ILK:"cmTC_3ea55.dir\\Debug\\cmTC_3ea55.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/CMakeFiles/CMakeScratch/TryCompile-ipwzt2/Debug/cmTC_3ea55.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Concordia University/Winter2025/Geometry/A1/libigl-example-project/CMakeFiles/CMakeScratch/TryCompile-ipwzt2/Debug/cmTC_3ea55.lib" /MACHINE:X64  /machine:x64 cmTC_3ea55.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_3ea55.vcxproj -> D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\CMakeScratch\\TryCompile-ipwzt2\\Debug\\cmTC_3ea55.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_3ea55.dir\\Debug\\cmTC_3ea55.tlog\\unsuccessfulbuild".
+          Touching "cmTC_3ea55.dir\\Debug\\cmTC_3ea55.tlog\\cmTC_3ea55.lastbuildstate".
+        Done Building Project "D:\\Concordia University\\Winter2025\\Geometry\\A1\\libigl-example-project\\CMakeFiles\\CMakeScratch\\TryCompile-ipwzt2\\cmTC_3ea55.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.87
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': D:/IDEs/Visual Studio Community/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "D:/Concordia University/Winter2025/Geometry/cmake-3.31.6-windows-x86_64/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "D:/IDEs/Visual Studio Community/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.43.34809.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...

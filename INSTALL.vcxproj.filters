@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Concordia University\Winter2025\Geometry\A1\libigl-example-project\CMakeFiles\5dc75937a8085ba1e8cb84e748eef329\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{95A01EAD-E856-3DFB-926F-377D77BA4650}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
